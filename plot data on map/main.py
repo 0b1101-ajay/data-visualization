@@ -26,5 +26,4 @@ ax.set_xlim(map_boundries[0], map_boundries[1])
 
 ax.imshow(map_image,extent=map_boundries, alpha=0.9)
 
-plt.imsave('mapi.png',map_image)
 plt.show()
